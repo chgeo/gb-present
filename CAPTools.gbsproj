@@ -3256,7 +3256,7 @@
         },
         {
             "name": "Ecki",
-            "backgroundId": "0e4ff621-8ae1-4173-b578-add2f6f7f54c",
+            "backgroundId": "5aa3a1ea-7605-4c0b-92ac-7d10a35098d5",
             "width": 20,
             "height": 20,
             "type": "TOPDOWN",
@@ -3627,6 +3627,16 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "DanielO.png"
+        },
+        {
+            "id": "5aa3a1ea-7605-4c0b-92ac-7d10a35098d5",
+            "name": "Ecki",
+            "symbol": "bg_ecki",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Ecki.png"
         },
         {
             "id": "8d6ba0d1-13a2-4b07-b6ce-84002f58429e",
