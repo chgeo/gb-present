@@ -445,7 +445,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press",
@@ -498,9 +500,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "b",
-                            "a"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -555,7 +555,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -607,9 +609,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -662,12 +662,20 @@
                     "id": "7cd43ad0-ff43-4057-9c7d-e59cfec6e975"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b471dd63-d7c6-4a8c-a5c6-56b318335c44",
+                        "__collapse": false
+                    },
+                    "id": "b57c2346-18d9-40de-ba3e-c8c1bcee1d5b"
+                },
+                {
                     "command": "PT_EVENT_BACKGROUND_TEXT",
                     "args": {
                         "text": "$ cds watch",
                         "x": 0,
                         "y": 1,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "f3f5cf17-37a1-462c-8e67-f87a68363eb6"
                 },
@@ -675,7 +683,8 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.7,
-                        "frames": 30
+                        "frames": 30,
+                        "__collapse": true
                     },
                     "id": "0e7be49e-13c0-4ad2-9a32-e0e13de276dd"
                 },
@@ -685,7 +694,7 @@
                         "text": "> loading images",
                         "x": 0,
                         "y": 3,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "dbe53984-cdf2-4c3a-9155-8bca60d8b98e"
                 },
@@ -695,7 +704,7 @@
                         "text": "> ...",
                         "x": 0,
                         "y": 5,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "ec3eafac-6125-4815-96b1-1a0e3c748f30"
                 },
@@ -703,7 +712,8 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.5,
-                        "frames": 30
+                        "frames": 30,
+                        "__collapse": true
                     },
                     "id": "c8f0f1f4-2b55-4830-a85e-ea85a282c6c5"
                 },
@@ -713,7 +723,7 @@
                         "text": "Press Start",
                         "x": 0,
                         "y": 8,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "335605a3-6b90-422d-83ca-e4345dc6530c"
                 },
@@ -727,7 +737,8 @@
                             "right"
                         ],
                         "override": true,
-                        "__scriptTabs": "press"
+                        "__scriptTabs": "press",
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -753,7 +764,8 @@
                             "select"
                         ],
                         "override": true,
-                        "__scriptTabs": "press"
+                        "__scriptTabs": "press",
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -806,7 +818,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -858,9 +872,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -1316,7 +1328,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -1368,9 +1382,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "b",
-                            "a"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -1826,7 +1838,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -1878,9 +1892,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -2336,7 +2348,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -2388,9 +2402,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -2445,7 +2457,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -2497,9 +2511,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -2955,7 +2967,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3007,9 +3021,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3064,7 +3076,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3116,9 +3130,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "b",
-                            "a"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3173,7 +3185,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3225,9 +3239,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "b",
-                            "a"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3683,7 +3695,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3735,9 +3749,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "b",
-                            "a"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3792,7 +3804,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -3844,9 +3858,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -4415,7 +4427,9 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "right"
+                            "right",
+                            "a",
+                            "b"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -4467,9 +4481,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "start",
-                            "a",
-                            "b"
+                            "start"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -4506,7 +4518,8 @@
             "height": 20,
             "imageWidth": 160,
             "imageHeight": 160,
-            "filename": "Andre.png"
+            "filename": "Andre.png",
+            "tileColors": []
         },
         {
             "id": "2c2b4804-cff9-480c-b71b-6c728be4a248",
@@ -5464,6 +5477,14 @@
     "customEvents": [],
     "music": [
         {
+            "id": "b471dd63-d7c6-4a8c-a5c6-56b318335c44",
+            "name": "Dreamy",
+            "symbol": "song_dreamy",
+            "filename": "Dreamy.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -5621,7 +5642,7 @@
             "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
             "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
         },
-        "musicDriver": "huge",
+        "musicDriver": "gbt",
         "cartType": "mbc5",
         "batterylessEnabled": false,
         "favoriteEvents": [
